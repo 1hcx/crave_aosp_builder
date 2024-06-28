@@ -13,7 +13,7 @@ on:
       BASE_PROJECT:
         description: 'Choose a base project:'
         required: true
-        default: 'LineageOS 20.0'
+        default: 'CipherOS 14'
         type: choice
         options:
           - 'LineageOS 20.0'
@@ -36,19 +36,19 @@ on:
       LOCAL_MANIFEST:
         description: "Personal local manifest [repository or raw]:"
         required: true
-        default: 'https://github.com/sounddrill31/local_manifests'
+        default: 'https://github.com/1hcx/local_manifest'
       LOCAL_MANIFEST_BRANCH:
         description: "Personal local manifest's branch:"
         required: false
-        default: 'lineage-oxygen'
+        default: 'CipherOS 14_dreamlte'
       DEVICE_NAME:
         description: "Device's codename:"
         required: true
-        default: "oxygen"
+        default: "dreamlte"
       PRODUCT_NAME:
         description: "Product to build:"
         required: true
-        default: "lineage_oxygen"
+        default: "CipherOS 14_dreamlte"
       BUILD_COMMAND:
         description: 'Command to be used for compiling:'
         required: true
