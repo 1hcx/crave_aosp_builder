@@ -1,8 +1,8 @@
 {
-  "username": "${CRAVE_USERNAME}",
+  "username": "${igamingd8@gmail.com}",
   "headers": {
     "Content-Type": "application/json",
-    "Authorization": "${CRAVE_TOKEN}",
+    "Authorization": "${eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjM2MSwidGVhbUlkIjoxNCwiaXNBcGlLZXkiOnRydWUsImlhdCI6MTcxOTU4NzgyNH0.ET1mlD8I9fuphcf-Lr1Bj4x8PyFxQEf7vl2I3v9G__k}",
     "User-Agent": "Crave"
   },
   "projects": [],
